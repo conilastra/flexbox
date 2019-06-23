@@ -20,7 +20,7 @@ form {
 }
 
 .boton-celeste {
-  background: #56CBF9;
+  background: #54ccfc;
   color: white;
   border: 1px solid #979797;
   font-size: 20px;
@@ -33,6 +33,7 @@ form {
   border: 1px solid #979797;
   height: 4.6rem;
   width: 50rem;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
