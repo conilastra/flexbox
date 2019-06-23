@@ -1,16 +1,5 @@
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+@import 'base/base';
+@import 'components/boton-turquesa';
+@import 'components/boton-celeste';
+@import 'components/search-box';
 
-button {
-    background: #50FCE3;
-    color: white;
-    border: none;
-    font-size: 20px;
-    padding: 1.5rem 3rem;
-    font-family: 'PT Mono', monospace;
-    font-weight: bold;
-}

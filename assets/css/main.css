@@ -5,7 +5,11 @@
   height: 100vh;
 }
 
-button {
+form {
+  display: flex;
+}
+
+.boton-turquesa {
   background: #50FCE3;
   color: white;
   border: none;
@@ -13,6 +17,22 @@ button {
   padding: 1.5rem 3rem;
   font-family: "PT Mono", monospace;
   font-weight: bold;
+}
+
+.boton-celeste {
+  background: #56CBF9;
+  color: white;
+  border: 1px solid #979797;
+  font-size: 20px;
+  padding: 1.5rem 2rem;
+  font-family: "PT Mono", monospace;
+  font-weight: bold;
+}
+
+.search-box {
+  border: 1px solid #979797;
+  height: 4.6rem;
+  width: 50rem;
 }
 
 /*# sourceMappingURL=main.css.map */
