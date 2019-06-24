@@ -1,15 +1,14 @@
 .navbar {
-    border: 1px solid #979797;
+    border: 1px solid $gray;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
 
-    &__links {
+    a {
+        padding-left: 2rem;
+        text-decoration: none;
         color: black;
-
-        span {
-            padding-left: 1rem;
-        }
     }
+    
 }

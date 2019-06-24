@@ -10,18 +10,22 @@ form {
   display: flex;
 }
 
+h1, h2, h3, h4, h5, h6, p, a, span {
+  font-family: "PT Mono", monospace;
+  font-weight: bold;
+}
+
 .navbar {
   border: 1px solid #979797;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 4rem;
+  padding: 1rem 3rem;
 }
-.navbar__links {
-  color: black;
-}
-.navbar__links span {
+.navbar a, .navbar span {
   padding-left: 1rem;
+  text-decoration: none;
+  color: black;
 }
 
 .flags {
