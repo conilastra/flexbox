@@ -33,6 +33,28 @@ form {
   align-content: center;
 }
 
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.images img {
+  height: 150px;
+  width: 160px;
+  margin: 0.3rem;
+  object-fit: cover;
+}
+.images :nth-child(5) {
+  width: 668px;
+  height: 185px;
+  object-position: 0 40%;
+}
+.images :nth-child(7), .images :nth-child(9) {
+  height: 245px;
+}
+
 .boton-turquesa {
   background: #50FCE3;
   color: white;
