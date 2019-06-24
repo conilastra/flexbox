@@ -1,9 +1,14 @@
+@import 'abstracts/variables';
+
 @import 'base/base';
 
-@import 'layout/_navbar';
+@import 'layout/navbar';
+@import 'layout/flags';
 
 @import 'components/boton-turquesa';
 @import 'components/boton-celeste';
 @import 'components/search-box';
 @import 'components/logo';
+@import 'components/hashtags';
+
 
